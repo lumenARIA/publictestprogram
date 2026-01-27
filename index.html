@@ -1,59 +1,187 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; min-height: 12.0px}
-    span.s1 {text-decoration: underline}
-    span.Apple-tab-span {white-space:pre}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>lumenARIA Test Program</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: #f8f9fc;
+      color: #1f2937;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: white;
+      padding: 48px 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+    
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 1.2rem;
+      text-align: center;
+    }
+    
+    .phase {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #4f46e5;
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding: 12px 24px;
+      background: #eef2ff;
+      border-radius: 12px;
+      display: inline-block;
+      width: auto;
+    }
+    
+    h2, h3 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #111827;
+      margin: 2rem 0 1rem;
+    }
+    
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 1.25rem;
+      color: #374151;
+    }
+    
+    .highlight {
+      background: #f3f4f6;
+      padding: 20px 24px;
+      border-radius: 12px;
+      border-left: 5px solid #6366f1;
+      margin: 1.5rem 0;
+    }
+    
+    a {
+      color: #4f46e5;
+      text-decoration: underline;
+      font-weight: 500;
+    }
+    
+    a:hover {
+      color: #4338ca;
+    }
+    
+    ul.platforms {
+      list-style: none;
+      margin: 1.2rem 0 2rem 1.5rem;
+    }
+    
+    ul.platforms li {
+      margin-bottom: 0.6rem;
+      font-size: 1.05rem;
+      position: relative;
+      padding-left: 1.8rem;
+    }
+    
+    ul.platforms li::before {
+      content: "•";
+      color: #4f46e5;
+      position: absolute;
+      left: 0;
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+    
+    .footer-note {
+      font-size: 0.95rem;
+      color: #6b7280;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .container {
+        padding: 32px 24px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
   </style>
 </head>
 <body>
-<p class="p1">Lumenaria is implementing ten test phases before mainnet launch. Current test phase is 5/10.<span class="Apple-tab-span">	</span></p>
-<p class="p2"><br></p>
-<p class="p1">If you want to join us in testing lumenARIA, please send an email to <a href="mailto:lumenARIA.join.test@proton.me"><span class="s1">lumenARIA.join.test@proton.me</span></a> with the subject “Request to join lumenARIA test”. The provided email address will be used to contact you when needed.</p>
-<p class="p2"><br></p>
-<p class="p1">In the body of the email, please provide a never-used self-custodied Externally Owned Address for which you have the private key.</p>
-<p class="p2"><br></p>
-<p class="p1">lumenARIA will use this address to send you a nominal amount of Sepolia (testnet) ETH on L1 to facilitate your testing of the lumenARIA software.</p>
-<p class="p2"><br></p>
-<p class="p1">To participate in the test program, lumenARIA requires your full legal name, country, we may also contact you for additional verification purposes and request more information as needed to ensure the integrity of the lumenARIA test program.</p>
-<p class="p2"><br></p>
-<p class="p1">For the initial test phases, lumenARIA will contact you with your provided email address and provide download links and instructions as we are ready for you to participate in the testing.</p>
-<p class="p2"><br></p>
-<p class="p1">Please fill out the following information in your email request to join the lumenARIA test program:</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p1">New Ethereum Address (EOA) for lumenARIA to use for you to send Sepolia testnet ETH and to airdrop your ARIA tokens on mainnet launch (TGE)</p>
-<p class="p2"><br></p>
-<p class="p1">Full legal name</p>
-<p class="p2"><br></p>
-<p class="p1">Country</p>
-<p class="p2"><br></p>
-<p class="p1">Your available platforms for use with testing lumenARIA (select all that apply):</p>
-<p class="p2"><br></p>
-<p class="p1">Windows</p>
-<p class="p1">Macintosh</p>
-<p class="p1">Linux</p>
-<p class="p1">Other Unix (please specify)</p>
-<p class="p1">iOS</p>
-<p class="p1">Android</p>
-<p class="p2"><br></p>
-<p class="p1">What is your interest in lumenARIA and the goals of this project?</p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p2"><br></p>
-<p class="p1">lumenARIA reserves the right to reject or terminate participants from the test program if we deem those participants are abusing the trust of the project, failing to participate in lumenARIA testing as requested, present an unacceptable legal risk to lumenARIA (eg. North Korean nationality) or are otherwise disruptive to the project.</p>
-<p class="p2"><br></p>
-<p class="p1">lumenARIA will never disclose any information provided to us, and we will destroy all personally identifying information provided by test program participants upon mainnet launch.</p>
-<p class="p2"><br></p>
-<p class="p1">lumenARIA is a fair launch Ethereum infrastructure project owned entirely by the Ethereum community and by the lumenARIA participants in test and production phases. lumenARIA test program ownership distribution will be on a pro-rata basis for participants in each phase.</p>
+
+  <div class="container">
+  
+    <div style="text-align: center; margin-bottom: 2.5rem;">
+      <h1>lumenARIA Test Program</h1>
+      <div class="phase">Current test phase: 5 / 10</div>
+    </div>
+
+    <p>Lumenaria is implementing ten test phases before mainnet launch. Current test phase is 5/10.</p>
+
+    <p>If you want to join us in testing lumenARIA, please send an email to <a href="mailto:lumenARIA.join.test@proton.me">lumenARIA.join.test@proton.me</a> with the subject “Request to join lumenARIA test”. The provided email address will be used to contact you when needed.</p>
+
+    <p>In the body of the email, please provide a never-used self-custodied Externally Owned Address for which you have the private key.</p>
+
+    <p>lumenARIA will use this address to send you a nominal amount of Sepolia (testnet) ETH on L1 to facilitate your testing of the lumenARIA software.</p>
+
+    <p>To participate in the test program, lumenARIA requires your full legal name, country, we may also contact you for additional verification purposes and request more information as needed to ensure the integrity of the lumenARIA test program.</p>
+
+    <p>For the initial test phases, lumenARIA will contact you with your provided email address and provide download links and instructions as we are ready for you to participate in the testing.</p>
+
+    <h2>Please include the following in your email:</h2>
+
+    <div class="highlight">
+      <p><strong>New Ethereum Address (EOA)</strong> for lumenARIA to use for you to send Sepolia testnet ETH and to airdrop your ARIA tokens on mainnet launch (TGE)</p>
+      
+      <p><strong>Full legal name</strong></p>
+      
+      <p><strong>Country</strong></p>
+    
+
+    <h3>Your available platforms for use with testing lumenARIA (select all that apply):</h3>
+    <ul class="platforms">
+      <li>Windows</li>
+      <li>Macintosh</li>
+      <li>Linux</li>
+      <li>Other Unix (please specify)</li>
+      <li>iOS</li>
+      <li>Android</li>
+    </ul>
+
+    <h3>What is your interest in lumenARIA and the goals of this project?</h3>
+    <p>(Please tell us in your email)</p>
+    </div>
+
+
+      <p>lumenARIA reserves the right to reject or terminate participants from the test program if we deem those participants are abusing the trust of the project, failing to participate in lumenARIA testing as requested, present an unacceptable legal risk to lumenARIA (eg. North Korean nationality) or are otherwise disruptive to the project.</p>
+
+
+    <p>lumenARIA will never disclose any information provided to us, and we will destroy all personally identifying information provided by test program participants upon mainnet launch.</p>
+
+    <p>lumenARIA is a fair launch Ethereum infrastructure project owned entirely by the Ethereum community and by the lumenARIA participants in test and production phases. lumenARIA test program ownership distribution will be on a pro-rata basis for participants in each phase.</p>
+
+    <div class="footer-note">
+      Thank you for your interest in helping test lumenARIA.
+    </div>
+
+  </div>
+
 </body>
 </html>

@@ -1,4 +1,4 @@
 # publictestprogram
-lumenARIA public test program
+Ethereum Public Goods Infrastructure (EPGi) public test program
 
-This repository contains information about the lumenARIA public testnet program.
+This repository contains information about the EPGi public test program.
